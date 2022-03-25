@@ -23,6 +23,10 @@ nav a {
     font-size: 0.9em;
 }
 
+.hero h1 {
+    font-size: 4.2em;
+    margin-bottom: 40px;
+}
 /*--------------
     COMMONS
 --------------*/
@@ -33,7 +37,8 @@ nav a {
 }
 
 .container-large {
-    max-width: 1300px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .container {
@@ -53,6 +58,7 @@ button {
     background-color: #0061ff;
     color: white;
 }
+
 /*--------------
     HEADER
 --------------*/
@@ -98,4 +104,31 @@ nav ul li {
 
 nav ul li:not(:last-child) {
     margin-right: 40px;
+}
+
+/*--------------
+    MAIN
+--------------*/
+
+/* HERO */
+.hero {
+    background-color: #b4d0e7;
+    padding-top: 150px;
+}
+
+.hero-text-box {
+    background-color: lightcoral;
+    width: 30%;
+    float: left;
+    margin-right: 100px;
+}
+
+.hero-img-box {
+    width: calc(70% - 100px);
+    float: left;
+    background-color: lightgreen;
+}
+
+.hero img {
+    width: 100%;
 }
