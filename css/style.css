@@ -27,10 +27,21 @@ nav a {
     font-size: 4.2em;
     margin-bottom: 40px;
 }
+
+.hero-text-box p {
+    font-size: 0.9em;
+    margin-bottom: 24px;
+}
+
+.under-button-text {
+    font-size: 0.7em;
+    display: block;
+    margin-top: 10px;
+}
 /*--------------
     COMMONS
 --------------*/
-.clearfix::before {
+.clearfix::after {
     content: ""; 
     display: block; 
     clear: both; 
@@ -49,9 +60,17 @@ nav a {
     BUTTONS
 --------------*/
 button {
-    padding: 6px 16px;
-    font-size: 0.9em;
     border: none;
+}
+
+.login-button {
+    padding: 6px 16px;
+    font-size: 0.8em;
+}
+
+.standard-button {
+    padding: 8px 20px;
+    font-size: 1em;
 }
 
 .blue-button {
@@ -127,8 +146,12 @@ nav ul li:not(:last-child) {
     width: calc(70% - 100px);
     float: left;
     background-color: lightgreen;
+ 
 }
 
 .hero img {
     width: 100%;
+    position: relative;
+    margin-bottom: -80px;
 }
+
