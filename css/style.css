@@ -93,6 +93,22 @@ h3 {
 section {
     margin-bottom: 200px;
 }
+
+/*--------------
+    ICONS
+--------------*/
+
+.check-symbol {
+    color: #0262ff;
+}
+
+.symbol {
+    display: block;
+    height: 40px;
+    float: left;
+    margin-right: 4px;
+}
+
 /*--------------
     BUTTONS
 --------------*/
@@ -269,13 +285,35 @@ nav ul li:not(:last-child) {
     margin-bottom: 24px;
 }
 
-.check-symbol {
-    color: #0262ff;
+.plan-row {
+    width: 100%;
+    /* background-color: aqua; */
+    border: 1px solid #d0d0d3;
 }
 
-.symbol {
-    display: block;
-    height: 40px;
+.plan-row-col-left {
+    width: 70%;
+    /* background-color: lightcoral; */
     float: left;
-    margin-right: 4px;
+}
+
+.plan-row-col-right {
+    width: 30%;
+    /* background-color: rgb(128, 240, 231); */
+    height: 100px;
+    float: left;
+}
+
+.plan-title-box h3 {
+    margin-bottom: 20px;
+}
+
+.enterprise-subtitle {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.plan-row-col-right {
+    text-align: center;
 }
