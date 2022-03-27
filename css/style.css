@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+  }
+
 /*--------------
     TYPOGRAPHY
 --------------*/
@@ -38,6 +42,29 @@ nav a {
     display: block;
     margin-top: 10px;
 }
+
+h2 {
+    font-size: 2.4em;
+}
+
+.billing-selector {
+    font-size: 0.9em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+.plan-price {
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.billing-time {
+    color: #b4d0e7;
+    font-size: 0.9em;
+}
+
 /*--------------
     COMMONS
 --------------*/
@@ -54,8 +81,18 @@ nav a {
 
 .container {
     max-width: 1080px;
+    margin: auto;
 }
 
+.rule {
+    width: 50px;
+    border: 0.5px solid #d0d0d3;
+    margin: 0 0 40px 40px;
+}
+
+section {
+    margin-bottom: 200px;
+}
 /*--------------
     BUTTONS
 --------------*/
@@ -155,3 +192,90 @@ nav ul li:not(:last-child) {
     margin-bottom: -80px;
 }
 
+.arrow-icon {
+    display: block;
+    font-size: 2.4em;
+    margin-top: 24px;
+}
+
+/* SECTIONS */
+
+/* 1 */
+
+.plan-selection {
+    background-color: rgb(181, 173, 255);
+    width: 100%;
+}
+
+.billing-selector {
+    margin-top: 40px;
+}
+
+.plan-column-left, .plan-column-center, .plan-column-right {
+    width: 30%;
+    /* background-color: lightgreen; */
+    min-height: 1100px;
+    float: left;
+    border: 1px solid #d0d0d3;
+    /* padding: 0 30px; */
+    /* line-height: 2.6em; */
+}
+
+.plan-column-center {
+    margin: 0 5%;
+}
+
+.plan-columns-box {
+    margin: 40px 0;
+}
+
+.plan-type-icon {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.billing-time {
+    display: block;
+}
+
+.plan-title-box, .plan-info-box, .main-plan-info {
+    padding: 0 30px;
+    margin-bottom: 40px;
+}
+
+.plan-info-box ul li:not(:last-child), .main-plan-info ul li:not(:last-child), .main-plan-info ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.free-trial-box {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.free-trial-box button {
+    margin-bottom: 14px;
+}
+
+.under-button-text a {
+    color: #0262ff;
+    text-decoration: underline;
+}
+
+.main-plan-info h4 {
+    margin-bottom: 24px;
+}
+
+.check-symbol {
+    color: #0262ff;
+}
+
+.symbol {
+    display: block;
+    height: 40px;
+    float: left;
+    margin-right: 4px;
+}
