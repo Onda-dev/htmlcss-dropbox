@@ -65,6 +65,10 @@ h3 {
     font-size: 0.9em;
 }
 
+.dropbox-partner h2 {
+    font-size: 1.6em;
+}
+
 /*--------------
     COMMONS
 --------------*/
@@ -131,11 +135,16 @@ button {
     color: white;
 }
 
+.empty-button {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
 /*--------------
     HEADER
 --------------*/
 header {
-    background-color: rgb(201, 162, 236);
+    background-color: white;
     width: 100vw;
     height: 80px;
     position: fixed;
@@ -146,11 +155,11 @@ header {
 .header-col-left, .header-col-right {
     width: 50%;
     height: 80px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .header-col-left {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding-left: 20px;
     float: left;
 }
@@ -184,12 +193,12 @@ nav ul li:not(:last-child) {
 
 /* HERO */
 .hero {
-    background-color: #b4d0e7;
+    /* background-color: #b4d0e7; */
     padding-top: 150px;
 }
 
 .hero-text-box {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     width: 30%;
     float: left;
     margin-right: 100px;
@@ -198,7 +207,7 @@ nav ul li:not(:last-child) {
 .hero-img-box {
     width: calc(70% - 100px);
     float: left;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
  
 }
 
@@ -219,8 +228,9 @@ nav ul li:not(:last-child) {
 /* 1 */
 
 .plan-selection {
-    background-color: rgb(181, 173, 255);
+    /* background-color: rgb(181, 173, 255); */
     width: 100%;
+    margin-bottom: 120px;
 }
 
 .billing-selector {
@@ -317,3 +327,80 @@ nav ul li:not(:last-child) {
 .plan-row-col-right {
     text-align: center;
 }
+
+/* 2 */
+
+.dropbox-partner {
+    /* background-color: lightpink; */
+}
+
+.partner-col-left {
+    width: 60%;
+    /* background-color: aqua; */
+    padding-right: 40px;
+    float: left;
+}
+
+.partner-col-right {
+    width: 40%;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.partner-text-box {
+    padding-top: 50px;
+}
+
+.partner-col-left img {
+    width: 100%;
+    display: block;
+}
+
+.partner-text-box p {
+    margin: 28px 0 24px 0;
+    line-height: 2em;
+}
+
+/* 3 */
+.operations {
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.operations a {
+    text-decoration: underline;
+}
+
+.operations-grid {
+    margin: 50px 0;
+}
+
+.operations-col-left, .operations-col-center, .operations-col-right {
+    width: 30%;
+    min-height: 300px;
+    float: left;
+    /* background-color: #0061ff; */
+}
+
+.operations-col-center {
+    margin: 0 5%;
+}
+
+.operations img{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.operations h3 {
+    margin: 20px 0;
+}
+
+.operations-img-box {
+    padding-top: 260px;
+    max-height: 400px;
+    position: relative;
+}
+
+/* 4 */
