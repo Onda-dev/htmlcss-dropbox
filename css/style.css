@@ -95,10 +95,6 @@ h3 {
     margin: 0 0 40px 40px;
 }
 
-section {
-    margin-bottom: 200px;
-}
-
 /*--------------
     ICONS
 --------------*/
@@ -135,6 +131,11 @@ button {
 .blue-button {
     background-color: #0061ff;
     color: white;
+}
+
+.white-button {
+    background-color: white;
+    padding: 8px 60px;
 }
 
 .empty-button {
@@ -197,6 +198,7 @@ nav ul li:not(:last-child) {
 .hero {
     /* background-color: #b4d0e7; */
     padding-top: 150px;
+    margin-bottom: 200px;
 }
 
 .hero-text-box {
@@ -232,7 +234,7 @@ nav ul li:not(:last-child) {
 .plan-selection {
     /* background-color: rgb(181, 173, 255); */
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 160px;
 }
 
 .billing-selector {
@@ -334,6 +336,7 @@ nav ul li:not(:last-child) {
 
 .dropbox-partner {
     /* background-color: lightpink; */
+    margin-bottom: 120px;
 }
 
 .partner-col-left {
@@ -366,6 +369,7 @@ nav ul li:not(:last-child) {
 /* 3 */
 .operations {
     width: 100%;
+    margin-bottom: 180px;
     /* background-color: aquamarine; */
 }
 
@@ -406,12 +410,6 @@ nav ul li:not(:last-child) {
 }
 
 /* 4 */
-.clients-logos {
-    /* background-color: lightpink; */
-    min-height: 400px;
-    margin-top: 120px;
-}
-
 .clients-title-box {
     max-width: 600px;
     /* background-color: #68b4e0; */
@@ -422,11 +420,6 @@ nav ul li:not(:last-child) {
     margin: 40px 0;
     color: #0262ff;
     text-decoration: underline;
-}
-
-.logos-grid {
-    min-height: 600px;
-    /* background-color: lightcoral; */
 }
 
 .logos-grid-col-left, .logos-grid-col-right {
@@ -511,4 +504,34 @@ nav ul li:not(:last-child) {
 
 .logos-grid-col-center {
     background-color: #f5f5f5;
+}
+
+/* 5 */
+.free-trial {
+    background-color: #b4d0e7;
+    min-height: 400px;
+    width: 100%;
+    padding: 150px 0 80px 0;
+}
+
+.trial-col-left {
+    width: 60%;
+    /* background-color: #a2d39b; */
+    float: left;
+}
+
+.trial-col-right {
+    width: 40%;
+    /* background-color: #d0d0d3; */
+    float: left;
+    text-align: right;
+}
+
+.trial-text-box {
+    max-width: 500px;
+}
+
+.free-trial h3 {
+    font-size: 2.6em;
+    color: #61082b;
 }
