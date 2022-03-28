@@ -118,6 +118,7 @@ section {
 --------------*/
 button {
     border: none;
+    cursor: pointer;
 }
 
 .login-button {
@@ -404,3 +405,15 @@ nav ul li:not(:last-child) {
 }
 
 /* 4 */
+.clients-logos {
+    background-color: lightpink;
+    min-height: 400px;
+    text-align: left;
+}
+
+.clients-title-box {
+    max-width: 600px;
+    /* float: left; */
+    background-color: #0061ff;
+
+}
