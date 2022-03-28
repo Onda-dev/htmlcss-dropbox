@@ -512,6 +512,7 @@ nav ul li:not(:last-child) {
     min-height: 400px;
     width: 100%;
     padding: 150px 0 80px 0;
+    margin-bottom: 140px;
 }
 
 .trial-col-left {
@@ -535,3 +536,26 @@ nav ul li:not(:last-child) {
     font-size: 2.6em;
     color: #61082b;
 }
+
+/* 6 */
+.faq {
+    margin-bottom: 140px;
+}
+
+.faq h3 {
+    font-size: 2.2em;
+    margin-bottom: 60px;
+}
+
+.faq .container ul li {
+    font-weight: 700;
+    padding: 40px 0;
+    border-top: 1px solid #d0d0d3;
+}
+
+.faq .container ul li:last-child {
+    border-bottom: 1px solid #d0d0d3;;
+}
+
+.faq .container ul li i{
+    margin-left: 440px;
