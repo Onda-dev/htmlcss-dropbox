@@ -21,6 +21,7 @@ ul {
 --------------*/
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
 }
 
 nav a {
@@ -61,7 +62,7 @@ h3 {
 }
 
 .billing-time {
-    color: #b4d0e7;
+    color: #74828f;
     font-size: 0.9em;
 }
 
@@ -108,7 +109,7 @@ section {
 
 .symbol {
     display: block;
-    height: 40px;
+    height: 30px;
     float: left;
     margin-right: 4px;
 }
@@ -408,12 +409,59 @@ nav ul li:not(:last-child) {
 .clients-logos {
     background-color: lightpink;
     min-height: 400px;
-    text-align: left;
+    margin-top: 120px;
 }
 
 .clients-title-box {
     max-width: 600px;
-    /* float: left; */
-    background-color: #0061ff;
+    background-color: #68b4e0;
+}
 
+.clients-title-box a {
+    display: inline-block;
+    margin: 40px 0;
+    color: #0262ff;
+    text-decoration: underline;
+}
+
+.logos-grid {
+    min-height: 600px;
+    background-color: lightcoral;
+}
+
+.logos-grid-col-left, .logos-grid-col-right {
+    width: 30vw;
+    height: 30vw;
+    float: left;
+    background-color: aquamarine;
+}
+
+.logos-grid-col-center {
+    width: 40vw;
+    height: 30vw;
+    float: left;
+    /* background-color: rgb(153, 255, 127); */
+    padding: 50px 40px;
+}
+
+.logo-box {
+    width: 15vw;
+    height: 15vw;
+    float: left;
+    background-color: bisque;
+    text-align: center;
+    position: relative;
+}
+
+.logos-grid-col-left img, .logos-grid-col-right img {
+    display: inline-block;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.client-review-logo img {
+    max-width: 140px;
 }
