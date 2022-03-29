@@ -571,13 +571,12 @@ nav ul li:not(:last-child) {
 --------------*/
 footer {
     background-color: black;
-    min-height: 400px;
+    padding-bottom: 80px;
 }
 
 .footer-col {
     width: 20%;
-    min-height: 400px;
-    background-color: #a2d39b;
+    /* background-color: #a2d39b; */
     float: left;
     padding: 100px 20px;
 }
@@ -585,4 +584,19 @@ footer {
 .footer-ul-box {
     margin-top: 20px;
     line-height: 2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    padding-left: 20px;
+    color: #999999;
+}
+
+.bottom-rule {
+    width: 50px;
+    border: 0.5px solid #999999;
+    margin-bottom: 60px;
 }
