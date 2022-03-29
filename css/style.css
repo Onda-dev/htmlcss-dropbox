@@ -70,6 +70,14 @@ h3 {
     font-size: 1.6em;
 }
 
+footer {
+    color: white;
+}
+
+footer h4 {
+    font-size: 1.4em;
+}
+
 /*--------------
     COMMONS
 --------------*/
@@ -196,7 +204,7 @@ nav ul li:not(:last-child) {
 
 /* HERO */
 .hero {
-    /* background-color: #b4d0e7; */
+    background-color: #b4d0e7;
     padding-top: 150px;
     margin-bottom: 200px;
 }
@@ -426,14 +434,12 @@ nav ul li:not(:last-child) {
     width: 30vw;
     height: 30vw;
     float: left;
-    /* background-color: aquamarine; */
 }
 
 .logos-grid-col-center {
     width: 40vw;
     height: 30vw;
     float: left;
-    /* background-color: rgb(153, 255, 127); */
     padding: 50px 40px;
 }
 
@@ -559,3 +565,24 @@ nav ul li:not(:last-child) {
 
 .faq .container ul li i{
     margin-left: 440px;
+}
+/*--------------
+    FOOTER
+--------------*/
+footer {
+    background-color: black;
+    min-height: 400px;
+}
+
+.footer-col {
+    width: 20%;
+    min-height: 400px;
+    background-color: #a2d39b;
+    float: left;
+    padding: 100px 20px;
+}
+
+.footer-ul-box {
+    margin-top: 20px;
+    line-height: 2em;
+}
